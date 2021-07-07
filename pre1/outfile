@@ -1,0 +1,151 @@
+enter main
+&argc=bf94b710 argv=bf94b7a4 env=bf94b7b8
+&a=bf94b6dc &b=bf94b6e0 &c=bf94b6e4
+Value of argc = 4
+Value of argv[0] = ./a.out
+Value of argv[1] = one
+Value of argv[2] = two
+Value of argv[3] = three
+enter A
+-------------Address of d,e,f-----------
+&d=bf94b690 &e=bf94b694 &f=bf94b698
+enter B
+---------Address of g,h,i--------------
+&g=bf94b660 &h=bf94b664 &i=bf94b668
+enter C
+----------Address of u,v,w,i,p----------
+&u=bf94b624 &v=bf94b628 &w=bf94b62c &i=bf94b630 p=bf94b634
+-----------Stack Frame Linked List------
+bf94b648 => bf94b678 => bf94b6a8 => bf94b6f8 => 0
+-----------STACK CONTENTS--------------
+bf94b634
+       1
+3f2f5c00
+b7ec6000
+b7ec6000
+bf94b678
+ 80486de
+       7
+       8
+bf94b664
+bf94b668
+       7
+       8
+       9
+3f2f5c00
+b7ec6000
+b7ec6000
+bf94b6a8
+ 8048648
+       4
+       5
+bf94b694
+bf94b698
+       4
+       5
+       6
+3f2f5c00
+bf94b710
+b7f0c918
+bf94b6f8
+ 80485a6
+       1
+       2
+bf94d2f7
+bf94b6e4
+    8000
+b7ec6000
+bf94b7b8
+bf94b7a4
+       4
+       0
+b7d42a50
+       1
+       2
+       3
+       4
+3f2f5c00
+bf94b710
+       0
+       0
+b7d2c637
+b7ec6000
+b7ec6000
+       0
+b7d2c637
+       4
+bf94b7a4
+bf94b7b8
+       0
+       0
+       0
+b7ec6000
+b7f0cc04
+b7f0c000
+       0
+b7ec6000
+b7ec6000
+       0
+8a370cb3
+ 6d2c2a3
+       0
+       0
+       0
+       4
+ 80483d0
+       0
+b7efd010
+b7ef7880
+b7f0c000
+       4
+ 80483d0
+       0
+ 80483f1
+ 80484cb
+       4
+bf94b7a4
+ 8048840
+ 80488a0
+b7ef7880
+bf94b79c
+b7f0c918
+       4
+bf94d2e7
+bf94d2ef
+bf94d2f3
+bf94d2f7
+       0
+bf94d2fd
+bf94d308
+bf94d31a
+bf94d330
+bf94d360
+bf94d391
+bf94d3a1
+bf94d3b5
+bf94d3c6
+bf94d3e9
+bf94d3fb
+bf94d43f
+bf94d456
+bf94d483
+bf94d48d
+bf94da15
+bf94da28
+bf94da62
+bf94da96
+bf94dabf
+bf94daf2
+bf94db36
+bf94dbc3
+bf94dbda
+bf94dbec
+bf94dc0d
+bf94dc22
+bf94dc4c
+bf94dc5e
+bf94dc72
+bf94dc85
+exit B
+exit A
+exit main
